@@ -16,7 +16,7 @@ function IconesHeader (){
     return(
         <IconesStyle>
             {icones.map((icone) => (
-                <IconeStyle className='icone'><img src={icone}></img></IconeStyle>
+                <IconeStyle><img src={icone}></img></IconeStyle>
             ) )}
         </IconesStyle>
     )
